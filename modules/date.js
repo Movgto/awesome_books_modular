@@ -1,5 +1,6 @@
-import { DateTime as date } from './luxon.js';
+import { DateTime } from './luxon.js';
+const date = document.getElementById('date');
 
 export default function showDate() {
-    console.log(date);
+    date.textContent = DateTime.DATETIME_SHORT;
 }
