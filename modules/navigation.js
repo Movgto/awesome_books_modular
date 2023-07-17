@@ -6,7 +6,7 @@ const contact = document.querySelector('#Contact');
 // Navigation links array
 const links = document.querySelectorAll('#myLinks a');
 
-export function navigation() {
+export default function navigation() {
   add.classList.add('hidden');
   contact.classList.add('hidden');
 
