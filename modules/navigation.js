@@ -1,6 +1,6 @@
 // Sections
 const list = document.querySelector('#List');
-const add = document.querySelector('#New');
+const add = document.querySelector('#Add');
 const contact = document.querySelector('#Contact');
 const sections = [list, add, contact];
 
@@ -14,7 +14,7 @@ export default function navigation() {
   // Function for showing the chosen section when a link gets clicked
   function GoToSection(e) {
     sections.forEach((item) => {
-      if(item.id == e.target.textContent) {
+      if(item.id === e.target.textContent) {
         item.classList.remove('hidden');
       } else {
         item.classList.add('hidden');
