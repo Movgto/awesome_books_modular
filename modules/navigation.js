@@ -14,7 +14,7 @@ export default function navigation() {
   function GoToSection(e) {
     list.classList.add('hidden');
     add.classList.add('hidden');
-    contact.classList.contact('hidden');
+    contact.classList.add('hidden');
     e.target.classList.remove('hidden');
   }
 
