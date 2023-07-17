@@ -7,14 +7,14 @@ const sections = [list, add, contact];
 // Navigation links array
 const links = document.querySelectorAll('#myLinks a');
 
-export default function navigation() {
+const navigation = () => {
   add.classList.add('hidden');
   contact.classList.add('hidden');
 
   // Function for showing the chosen section when a link gets clicked
   function GoToSection(e) {
     sections.forEach((item) => {
-      if(item.id === e.target.textContent) {
+      if (item.id === e.target.textContent) {
         item.classList.remove('hidden');
       } else {
         item.classList.add('hidden');
@@ -26,4 +26,6 @@ export default function navigation() {
   links.forEach((section) => {
     section.addEventListener('click', GoToSection);
   });
-}
+};
+
+export default navigation;

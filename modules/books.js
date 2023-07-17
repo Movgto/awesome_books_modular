@@ -1,12 +1,11 @@
-import Bookshelf from "./bookshelf.js";
+import Bookshelf, { bookCtr } from './bookshelf.js';
 
-export const bookCtr = document.getElementById('book-ctr');
 const addBtn = document.getElementById('add-btn');
 const alertMsg = document.getElementById('alert-msg');
 
 // Loading existing books data from local storage if there is already
 // existing data, otherwise, creates an empty array.
-export function initiateShelf() {
+export const initiateShelf = () => {
   Bookshelf.shelf = JSON.parse(localStorage.getItem('books'));
   if (Bookshelf.shelf === null || Bookshelf.shelf.length === 0) {
     Bookshelf.shelf = Bookshelf.someBooks;
@@ -27,9 +26,9 @@ export function initiateShelf() {
       bookCtr.appendChild(bookElement);
     });
   }
-}
+};
 
-export function addEventListeners() {
+export const addEventListeners = () => {
   let alertTimeOut = null;
 
   addBtn.addEventListener('click', () => {
@@ -56,4 +55,4 @@ export function addEventListeners() {
 
     Bookshelf.addNewBook(name, author);
   });
-}
+};

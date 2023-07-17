@@ -1,4 +1,4 @@
-import { bookCtr } from "./books.js";
+export const bookCtr = document.getElementById('book-ctr');
 
 export default class Bookshelf {
   static shelf = [];
@@ -19,8 +19,7 @@ export default class Bookshelf {
     this.author = author;
   }
 
-  static addNewBook(name, author) {
-    console.log('New book added', name);
+  static addNewBook = (name, author) => {
     const newBook = new Bookshelf(name, author);
     Bookshelf.shelf.push(newBook);
     Bookshelf.updateData();
@@ -38,11 +37,11 @@ export default class Bookshelf {
     bookCtr.appendChild(bookElement);
   }
 
-  static removeBook(name) {
+  static removeBook = (name) => {
     Bookshelf.shelf = Bookshelf.shelf.filter((item) => item.name !== name);
   }
 
-  static updateData() {
+  static updateData = () => {
     localStorage.setItem('books', JSON.stringify(Bookshelf.shelf));
   }
 }
