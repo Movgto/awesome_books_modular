@@ -1,4 +1,4 @@
-import { bookCtr } from "./books";
+import { bookCtr } from "./books.js";
 
 export default class Bookshelf {
   static shelf = [];
