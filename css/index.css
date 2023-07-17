@@ -1,0 +1,43 @@
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.book:nth-child(odd) {
+  background-color: rgb(213, 216, 218);
+}
+
+.book p {
+  margin: 0;
+}
+
+.myNavbar {
+  position: fixed;
+  width: 100%;
+}
+
+.myFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#myLinks a:hover {
+  cursor: pointer;
+}
+
+#alert-msg {
+  color: red;
+}
+
+#alert-msg.success {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
