@@ -45,7 +45,7 @@ Building a Book List Application with ES6 modules
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- Click [here](https://movgto.github.io/awesome_books_modular) to see live demo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,7 +57,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Enter this [link]
+Enter this [link](https://movgto.github.io/awesome_books_modular)
 
 ## 👥 Authors <a name="authors"></a>
 
