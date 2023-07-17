@@ -1,5 +1,5 @@
-import { initiateShelf, addEventListeners } from "./modules/books";
-import navigation from "./modules/navigation";
+import { initiateShelf, addEventListeners } from "./modules/books.js";
+import navigation from "./modules/navigation.js";
 
 initiateShelf();
 addEventListeners();

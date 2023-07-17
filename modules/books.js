@@ -1,4 +1,4 @@
-import Bookshelf from "./bookshelf";
+import Bookshelf from "./bookshelf.js";
 const bookCtr = document.getElementById('book-ctr');
 const addBtn = document.getElementById('add-btn');
 const alertMsg = document.getElementById('alert-msg');
