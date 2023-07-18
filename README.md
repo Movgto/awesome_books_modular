@@ -91,7 +91,7 @@ If you like this project you can give me a good rating or leave a nice comment, 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank you for taking your time for passing by.\
+I would like to thank you for taking your time for passing by.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
