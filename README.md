@@ -17,11 +17,11 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Capstone Project 1 <a name="about-project"></a>
+# 📖 Modular Book List Application <a name="about-project"></a>
 
 **Book List Project**
  
-Building a Book List Application
+Building a Book List Application with ES6 modules
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,12 +39,13 @@ Building a Book List Application
 ### Key Features <a name="key-features"></a>
 
 - Elements added dynamically using JavaScript objects.
+- ES6 modules used in this application, which makes code easier to read and more organized.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- Click [here](https://movgto.github.io/awesome_books_modular) to see live demo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +57,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Execute index.html file.
+Enter this [link](https://movgto.github.io/awesome_books_modular)
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -90,7 +91,7 @@ If you like this project you can give me a good rating or leave a nice comment, 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank you for taking your time for passing by.\
+I would like to thank you for taking your time for passing by.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
